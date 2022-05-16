@@ -4,6 +4,9 @@
     "title": "ECS task definition ",
     "explanation": "ECS task definition for Elastic Container Service"
   },
+	"compute_service": {
+		"default": {"identifier": "task_definition"}
+	},  
   "configuration": {
       "name" : "first",
       "image" : "service-first",
