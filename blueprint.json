@@ -1,0 +1,14 @@
+{
+  "identifier": "aws_ecs_task_definition",
+  "about": {
+    "title": "ECS task definition ",
+    "explanation": "ECS task definition for Elastic Container Service"
+  },
+  "configuration": {
+      "name" : "first",
+      "image" : "service-first",
+      "cpu" : 10,
+      "memory" :512,
+      "essential" : true
+  }
+}
