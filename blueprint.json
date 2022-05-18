@@ -1,5 +1,5 @@
 {
-	"identifier": "aws_ecs_task_definition",
+	"identifier": "aws-ecs-task-definition",
 	"about": {
 		"title": "ECS task definition ",
 		"explanation": "ECS task definition for Elastic Container Service  family is settable"
