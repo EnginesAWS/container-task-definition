@@ -1,13 +1,13 @@
 {
-  "identifier": "aws-ecs-task-definition",
-  "about": {
-    "title": "ECS task definition ",
-    "explanation": "ECS task definition for Elastic Container Service  family is settable"
-  },
+	"identifier": "container-task-definition",
+	"about": {
+		"title": "Container Service Task Definition",
+		"explanation": "Defines an AWS container task definition resource"
+	},
 	"compute_service": {
-		"default": {"identifier": "task_definition"}
+		"default": {"identifier": "container_task_definition"}
 	},  
-  "configuration": {
+	"configuration": {
 		"family": "service"
-  }
+	}
 }
